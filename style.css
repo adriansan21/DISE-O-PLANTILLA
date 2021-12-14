@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  /* border: thin solid red; */
+}
+
+/* #main {
+  display: grid;
+  grid-template-areas:  'h h h h'
+                        'l c c r'
+                        'l c c r'
+                        'f f f f';
+}
+
+#header {
+  grid-area: h;
+}
+
+#left-menu {
+  grid-area: l;
+}
+
+#content {
+  grid-area: c;
+}
+
+#right-menu {
+  grid-area: r;
+}
+
+#footer {
+  grid-area: f;
+} */
+
+
+#main1 {
+  position: relative;
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+}
+
+.img {
+  width: 96%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.piloto {
+  width: 100%;
+}
+
+.escudo {
+  width: 96%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+
+
+.itemmercedes {
+  border: 5px solid #01b0a9;
+  background-color: #252a30;
+  color: #01b0a9;
+  border-radius: 5%;
+  overflow: hidden;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.itemredbull {
+  border: 5px solid #e5041d;
+  background-color: #01182a;
+  color: #e5041d;
+  border-radius: 5%;
+  overflow: hidden;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.itemferrari {
+  border: 5px solid #fef200;
+  background-color: #ff1520;
+  color: #fef200;
+  border-radius: 5%;
+  overflow: hidden;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.itemmclaren {
+  border: 5px solid #012989;
+  background-color: #f48500;
+  color: #012989;
+  border-radius: 5%;
+  overflow: hidden;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.texto {
+  margin: 10px;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.nombreredbull {
+  color: #fcd800;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.nombreferrari {
+  color: #fcd800;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.nombrealpine {
+  color: #fcd800;
+  margin-left: 5px;
+  margin-right: 5px;
+  src: url(letra/Formula1-Regular.ttf);
+  font-family: Formula1-Regular;
+}
+
+
+
+@font-face {
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
