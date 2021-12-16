@@ -39,8 +39,20 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
 }
 
+.bandera {
+  border-radius: 10%;
+  grid-area: p;
+  height: 135px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+
+
+
 .img {
-  width: 96%;
+  /* width: 96%; */
   margin-left: 5px;
   margin-right: 5px;
   font-family: Formula1-Regular;
@@ -52,10 +64,10 @@
 }
 
 .escudo {
-  width: 96%;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
+  width: 225px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
 
 
@@ -100,7 +112,17 @@
   src: url(letra/Formula1-Regular.ttf);
 }
 
-.texto {
+.itemalpine {
+  border: 5px solid #fe2722;
+  background-color: #0448d4;
+  color: #fdfbfe;
+  border-radius: 5%;
+  overflow: hidden;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
+.nombremercedes {
   margin: 10px;
   font-family: Formula1-Regular;
   src: url(letra/Formula1-Regular.ttf);
@@ -122,8 +144,16 @@
   src: url(letra/Formula1-Regular.ttf);
 }
 
+.nombremclaren {
+  color: #012989;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Formula1-Regular;
+  src: url(letra/Formula1-Regular.ttf);
+}
+
 .nombrealpine {
-  color: #fcd800;
+  color: #fdfbfe;
   margin-left: 5px;
   margin-right: 5px;
   src: url(letra/Formula1-Regular.ttf);
